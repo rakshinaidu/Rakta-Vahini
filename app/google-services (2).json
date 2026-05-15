@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "299080663816",
+    "project_id": "rakta-vahini-r5s7",
+    "storage_bucket": "rakta-vahini-r5s7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299080663816:android:c964085cc97528355a22bd",
+        "android_client_info": {
+          "package_name": "com.example.rakta_vahini"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKoJZ9VhRdWCVUIz-Iei08i5FnqpDDgUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

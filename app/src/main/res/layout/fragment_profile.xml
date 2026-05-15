@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:background="#FFF5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="🩸 My Profile"
+
+            android:textSize="30sp"
+
+            android:textStyle="bold"
+
+            android:textColor="#C62828"
+
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/etName"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:hint="Full Name"/>
+
+        <EditText
+            android:id="@+id/etPhone"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:hint="Phone Number"
+
+            android:inputType="phone"
+
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/etCity"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:hint="City"
+
+            android:layout_marginTop="12dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerBlood"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="12dp"/>
+
+        <Switch
+            android:id="@+id/switchEligible"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Eligible to Donate"
+
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btnSave"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:text="Save Profile"
+
+            android:backgroundTint="#C62828"
+
+            android:textColor="#FFFFFF"
+
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnLogout"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:text="Logout"
+
+            android:backgroundTint="#6A1B9A"
+
+            android:textColor="#FFFFFF"
+
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
